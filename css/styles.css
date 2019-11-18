@@ -1,19 +1,42 @@
+
 body {
-  background-color: #EAF6F6;
-}
-
-img {
-  height: 150px;
-}
-
-hr {
-  background-color: none;
-  border-color: Grey;
-  border-style: none none dotted;
-  border-width: 10px;
-  width: 5%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+  background-color: #3fc5f0;
 }
 
 h1 {
-  color: #66BFBF;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+.Top-container {
+
+
+}
+
+.Middle-container {
+
+  background-color: #42dee1;
+
+}
+
+.contact-me{
+  background-color: #6decb9;
+  width: 1540px;
+  height: 390px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 75px;
+  right: 450px;
 }
