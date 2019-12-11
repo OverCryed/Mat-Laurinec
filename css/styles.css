@@ -1,183 +1,187 @@
 
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
 body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Lora', serif;
-  background-color: #3fc5f0;
-  font-size: 1rem;
+  font-family: "Montserrat";
 }
 
 h1 {
-  padding-top: 160px;
-  font-family: 'Sacramento', cursive;
-  font-size: 6rem;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+ }
 
+ h2 {
+   color: #fff;
+   font-weight: 700;
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ h3 {
+   font-weight: 700;
+   font-size: 1.5rem;
+
+ }
+
+ p {
+   color: #8f8f8f;
+ }
+
+
+   /* Navigation bar */
+
+   .container-fluid {
+     padding: 3% 15% 7%;
+   }
+
+
+   .navbar {
+     padding:  0 0 4.5rem;
+   }
+
+   .nav-item {
+     padding: 0 18px;
+     font-size: 1.2rem;
+     font-family: "Montserrat-Light";
+   }
+
+   .navbar-brand {
+     font-family: "Ubuntu";
+     font-size: 2.5rem;
+     font-weight: bold;
+   }
+
+   /* Download buttons */
+
+   .download-button {
+     margin: 5% 3% 5% 0;
+   }
+
+    /* Title image */
+
+.title-image {
+width: 50%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;
 }
-h2 {
-  font-family: 'Acme', sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-  padding: 10px;
-  color: Purple;
 
-}
-
-h3 {
-
-}
-
-hr {
-  border-style: dotted;
-  width: 4%;
-  border-top: 0px;
-  border-width: 15px;
-  color: grey;
+.pismo {
+  color: #8f8f8f;
 }
 
 
-.all {
-  background-color: #9dd8c8;
+    /* Features image */
+
+
+    #features {
+      padding: 7% 15%;
+      background-color: #fff;
+      position: relative;
+      z-index: 1;
+    }
+
+.ok {
+  text-align: center;
+  padding: 5%;
 }
 
-.Top-container {
-line-height: 20px;
-height: 690px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  bottom: 300px;
-  left: 250px;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 70px;
-  right: 300px;
-}
-
-.mountain {
-  position: relative;
-  top: 50px;
-}
-
-.My-profile {
-  height: 50%;
-  padding: 50px;
-  background-color: #9dd8c8;
-  margin: 0;
+.ik {
+  color: #ef8172;
 }
 
 
-.programming {
-  width: 50%;
+.ik:hover {
+  color: #ff4c68;
+}
+
+
+  /* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#press {
+  text-align: center;
+  background-color:  #ef8172;
+}
+
+.carousel-item {
+padding: 7% 15%;
+}
+
+.dog {
+width: 10%;
+border-radius: 100%;
+margin: 10;
+}
+
+.pismo2 {
+  color: #fff;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+
+  /* Price section */
+
+#pricing {
   padding: 100px;
-  margin: auto;
+  text-align: center;
 }
 
-.will {
-  width: 50%;
-  margin: 100px 0 100px 0;
-  position: relative;
-  left: 350px;
-
+.price {
+  color: black;
 }
 
-.gif-1 {
-  background-color: black;
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-
+.card-deck {
+padding: 3% 2%
 }
 
-.gif-2 {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-  position: relative;
-  bottom: 90px;
+
+@media (max-width: 1052px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
 
-.skill-h2 {
-  padding: 40px;
-}
 
-.pro {
-  position: relative;
-  right: 100px;
-}
+   /* Call to Action */
 
-.pro2 {
-  position: relative;
-  left: 110px;
-}
 
-.contact {
-  padding: 25px;
-  background-color: #eb8242;
-  margin: 100px auto 0 0;
-  line-height: 50px;
-}
+   #cta {
+     background-color:  #ff4c68;
+     text-align: center;
+     padding: 8%;
+   }
 
-.c {
-  height: 15px;
-  font-size: 10px;
-  color: white;
-  font-weight: normal;
-}
+   .koniec {
+     font-weight: 700;
+     font-size: 3.5rem;
+     line-height: 1.5;
+     color: #fff;
+   }
 
-.btn {
-	font-weight:bold;
-	text-decoration:none;
-	font-family:Arial;
-	box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 3px 2px;
-	o-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 3px 2px;
-	-moz-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 3px 2px;
-	-webkit-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 3px 2px;
-	background:#f0001c;
-	background:-o-linear-gradient(90deg, #f0001c, #ccff00);
-	background:-moz-linear-gradient( center top, #f0001c 5%, #ccff00 100% );
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0001c), color-stop(1, #ccff00) );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0001c', endColorstr='#ccff00');
-	background:-webkit-linear-gradient(#f0001c, #ccff00);
-	background:-ms-linear-gradient(#f0001c, #ccff00);
-	background:linear-gradient(#f0001c, #ccff00);
-	text-indent:0px;
-	line-height:30px;
-	-moz-border-radius:25px;
-	-webkit-border-radius:25px;
-	border-radius:25px;
-	text-align:center;
-	vertical-align:middle;
-	display:inline-block;
-	font-size:20px;
-	color:#ffffff;
-	width:215px;
-	height:30px;
-	padding:13px;
-	text-shadow:#191a1a 2px 2px 0px;
-	border-color:#000000;
-	border-width:2px;
-	border-style:solid;
-}
 
-.btn:active {
-	box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 0 2px;
-	o-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 0 2px;
-	-moz-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 0 2px;
-	-webkit-box-shadow:inset #3d3d3d -2px 5px 8px -1px,#4f374f 1px 0 2px;
-	position:relative;
-	top:3px
-}
+   /* Footer Section */
 
-.btn:hover {
-	background:#ccff00;
-	background:-o-linear-gradient(90deg, #ccff00, #f0001c);
-	background:-moz-linear-gradient( center top, #ccff00 5%, #f0001c 100% );
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ccff00), color-stop(1, #f0001c) );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccff00', endColorstr='#f0001c');
-	background:-webkit-linear-gradient(#ccff00, #f0001c);
-	background:-ms-linear-gradient(#ccff00, #f0001c);
-	background:linear-gradient(#ccff00, #f0001c);
+   #footer {
+       background-color: #fff;
+       text-align: center;
+       padding: 5% 7%;
+   }
+
+.C {
+  margin: 8px;
+  padding-bottom: 20px;
 }
